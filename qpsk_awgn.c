@@ -20,7 +20,7 @@ int C_Ber=0; /*total number of channel errors*/
 int i; /* i is for for loop (simulation runs) */
 for(i=1;i<=sim_runs;i++)
 {
-srand(time(0))'
+srand(time(0));
 /*source*/
 int a[2*frame_size],i1;
 for(i1=0;i1<2*frame_size;i1++)
